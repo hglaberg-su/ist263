@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 Notes</title>
+    <style>
+        /* selector property and value*/
+        body {font-family:'Courier New', Courier, monospace;}
+        /* you can't use any font you want! */
+        h1 {font-size: 3em;}
+        /* you can use units em or % don't use px or pts */
+        p {
+            font-weight: bolder;
+            color:cornflowerblue;
+            text-decoration: underline;
+        }
+        /* below is a descendant selector - selects tag inside another tag... amazon doesn't change but google does bc it is in the <p> tag */
+        p a {color:darkblue; }
+            /* id selector picks one unique thing */
+        #secondid {color:darkorchid;}
+        /* this selects anything with a class that has the sekectir value */
+            .yellow {color:yellow}
+    </style>
+</head>
+<body>
+    <h1 class ="yellow">CSS</h1>
+    <a href="http://www.amazon.com" class = "yellow">Amazon</a>
+    <h2>Change Font</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim maiores mollitia ipsam voluptatum cum et aspernatur reiciendis! Cum id repudiandae aliquam incidunt sunt quidem. Fugiat ut pariatur quo dolore ex?
+        <a href="http://www.google.com">Google</a>
+    </p>
+    <h2>Size</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim maiores mollitia ipsam voluptatum cum et aspernatur reiciendis! Cum id repudiandae aliquam incidunt sunt quidem. Fugiat ut pariatur quo dolore ex?</p>
+    <h2 id="secondid">Weight</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim maiores mollitia ipsam voluptatum cum et aspernatur reiciendis! Cum id repudiandae aliquam incidunt sunt quidem. Fugiat ut pariatur quo dolore ex?</p>
+</body>
+</html>
