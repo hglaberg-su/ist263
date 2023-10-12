@@ -1,0 +1,21 @@
+
+h1 {color:#A1CCD1;
+background-color: #F4F2DE;
+} /* hex */
+a:hover {color: #53b7c6;} 
+
+body {background-color: #F4F2DE;}
+
+
+p{
+ background-color: #53b7c6;
+}
+
+nav {padding: 10px;
+    background-color: #c0d7da;
+    margin-bottom: 30px;
+
+}
+
+nav a:hover {background-color:#7C9D96;}
+
