@@ -10,6 +10,20 @@
 
                 .banner {max-width: 100%;}
 
+                .skip {
+            background-color: #ffbf00;
+            padding:5px;
+            border: 1px solid #000000;
+            text-decoration: none;
+            position: absolute; /* positions an element relative to the top left of the viewport */
+            top: 10px;
+            left: -999px;  /* -999 pushes off the left side of the screen */
+        }
+
+        .skip:focus {
+            left: 10px; /* bring it back when its been tabbed to */
+        }
+
             </style>
         </head>
         <body>

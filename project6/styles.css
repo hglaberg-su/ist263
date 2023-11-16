@@ -1,0 +1,21 @@
+
+h1 {color:#FFFFFF;
+background-color:#5680E9;
+} /* hex */
+a:hover {color: #84CEEB;} 
+
+body {background-color: #C1C8E4;}
+
+nav {padding: 10px;
+    background-color: #8860D0;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+
+}
+
+@media only screen and (max-width: 700px) {
+    nav a {display:block;
+        width:100%;}
+    nav span { display: none;}
+}
+
