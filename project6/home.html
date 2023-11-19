@@ -62,6 +62,7 @@
             padding: 40px;
             border-radius: 10px;
         }
+    
 
         .all {
             display:flex;
@@ -116,14 +117,16 @@
             justify-content: center;
             align-items:center;
         }
+    }
     @media only screen and (max-width: 800px) {
-        .navigation{
-        display: block; 
-        flex-direction:column;
+        .navigation {
+        display: block;
+        justify-content: initial;
+        align-items: initial;
+        width: 100%
         }
     }
 
-    }
 </style>
 </head> 
 
@@ -141,7 +144,7 @@
 
 <nav class="navigation">
 
-        <a href="home.html">Home</a>
+         <a href="home.html">Home</a>
         <a href="page1.html">Skills</a>
         <a href="page2.html">Advanced Skills</a>
 
