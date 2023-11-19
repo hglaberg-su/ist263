@@ -115,8 +115,14 @@
             flex-direction: column;
             justify-content: center;
             align-items:center;
-
         }
+    @media only screen and (max-width: 800px) {
+        .navigation{
+        display: block; 
+        flex-direction:column;
+        }
+    }
+
     }
 </style>
 </head> 
@@ -133,13 +139,13 @@
     </div>     
 </div>
 
-<nav>
-    <div class="navigation">
-        <div><a href="home.html">Home</a> </div>
-        <div><a href="page1.html">Skills</a> </div>
-        <div><a href="page2.html">Advanced Skills</a> </div>
-    </div>
-    </nav>
+<nav class="navigation">
+
+        <a href="home.html">Home</a>
+        <a href="page1.html">Skills</a>
+        <a href="page2.html">Advanced Skills</a>
+
+</nav>
 
     
 
