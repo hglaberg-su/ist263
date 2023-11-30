@@ -12,35 +12,4 @@ nav {padding: 10px;
     margin-bottom: 30px;
 
 }
-@media only screen and (max-width: 700px) {
-    nav a {display:block;
-        width:100%;}
-    nav span { display: none;}
-}
-@media only screen and (max-width: 600px) {
-    /* Add your mobile-specific styles here */
-    .welcome {
-        flex-direction: column;
-    }
-
-    .welcome img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    .welcomecontent {
-        width: 100%;
-        text-align: center;
-        font-size: 20px;
-    }
-
-    .hanna {
-        padding: 20px;
-    }
-
-    .info1, .info2 {
-        flex-basis: 100%;
-        margin: 10px;
-    }
-}
 }
