@@ -17,9 +17,8 @@
             background-color: #FFFFFF;
         }
 
-        .navigation {
-            display: flex;
-            justify-content: space-around;
+        nav {
+            justify-content: space-between;
             background-color: #24305E;
             color: #FFFFFF;
             width:100%;
@@ -111,19 +110,19 @@
     }
     @media only screen and (max-width: 800px) {
         .hanna {
-            display: flex;
+           
             flex-direction: column;
             justify-content: center;
             align-items:center;
         }
     }
     @media only screen and (max-width: 800px) {
-        .navigation {
-        display: block;
-        justify-content: initial;
-        align-items: initial;
-        width: 100%
+        nav a {
+        display:block;
+
         }
+
+        nav {height: 60px;}
     }
     @media only screen and (max-width: 800px) {
     .welcomecontent {
@@ -131,8 +130,9 @@
      
         }
     }   
-
     h1, h2 {font-family: 'Crafty Girls', cursive;}
+
+    nav {text-align:center;}
 
 </style>
 
@@ -156,7 +156,7 @@
     </div>     
 </div>
 
-<nav class="navigation">
+<nav class="Navigation">
 
          <a href="home.html">Home</a>
         <a href="page1.html">Skills</a>
