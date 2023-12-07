@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Adapt</title>
+    <style>
+        #modal {
+            background-color: #ffffff;
+            border: 1px solid #000000;
+            width: 200px;
+            padding: 5px;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -100px -100px;
+
+            display:none;
+        }
+
+        #container {
+            position: relative;
+            margin: 0 auto;
+            width: 800px;
+        }
+        a{
+            background-color: rgb(249, 198, 224);
+            padding: 5px;
+        }
+
+        #modal-close {
+            text-align:right;
+            margin: 0px;
+        }
+
+        #font {font-family: 'Crafty Girls', cursive;}
+      
+
+    </style>
+    <script>
+
+        function openModal () {
+            document.getElementById("modal").style.display = "block";
+        }
+
+        function closeModal () {
+            document.getElementById("modal").style.display = "none";
+        }
+
+
+    </script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Festive&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+
+        <h1>Desserts</h1>
+
+        <p>Cotton candy cake tiramisu dessert pie danish cupcake pie. Oat cake marshmallow candy canes pie oat cake lemon drops. Jelly beans chupa chups apple pie oat cake dragée tiramisu tart sweet. Donut biscuit jelly-o candy bonbon bonbon. Donut gummi bears macaroon lemon drops soufflé cookie candy canes. Chocolate cake macaroon jelly beans donut tiramisu. Soufflé toffee danish muffin bear claw. Sesame snaps lollipop powder candy canes pie chupa chups halvah. Soufflé sweet roll fruitcake marzipan danish cotton candy. Carrot cake tiramisu ice cream croissant bear claw pudding jujubes. Gummies marshmallow soufflé candy chupa chups pudding cotton candy tootsie roll. Wafer jelly-o cake brownie halvah gummi bears pudding muffin. Chupa chups cotton candy cookie bear claw bear claw cheesecake donut cake.</p>
+
+        <p>Lollipop topping bonbon tiramisu gummies shortbread muffin. Tiramisu lemon drops tootsie roll cupcake jujubes muffin carrot cake cake marshmallow. Cake tart topping croissant jujubes. Lollipop pastry dessert apple pie halvah danish lollipop sugar plum. Pudding jelly donut jujubes cheesecake brownie tiramisu. Jelly halvah candy wafer cookie. Fruitcake danish macaroon pie sugar plum cotton candy dragée tiramisu. Pie jelly-o jelly beans cookie chocolate croissant. Shortbread gingerbread chupa chups halvah lollipop candy canes tootsie roll. Pie carrot cake pie wafer shortbread sesame snaps. Candy canes cotton candy gummies dragée sweet roll marshmallow jelly-o. Sweet cake icing shortbread pastry soufflé oat cake jelly.</p>
+            
+        <p> Toffee biscuit brownie chocolate marzipan danish candy jujubes. Dragée lemon drops liquorice pie gummies apple pie bonbon. Carrot cake gummies lollipop chupa chups carrot cake bear claw lollipop jelly-o. Chocolate cake icing jujubes bear claw dragée jujubes. Sugar plum jujubes tootsie roll cake gingerbread donut lollipop tart. Cookie muffin cupcake ice cream sugar plum. Cake dessert candy shortbread chocolate bar danish. Marzipan pudding icing toffee marzipan tootsie roll. Cookie wafer icing powder halvah. Sweet cheesecake sesame snaps cake tart caramels cake marshmallow. Chocolate cupcake liquorice cheesecake candy canes. Tootsie roll marshmallow bonbon chocolate apple pie jujubes danish carrot cake shortbread. Donut lemon drops tart danish cupcake jujubes marshmallow.</p>
+
+        <p><a onclick="openModal();">Subscribe to Our Newsletter!</a></p>
+
+    </div>
+
+<div id="modal">
+    <p id="modal-close" onclick="closeModal();">X</p>
+    <h1 id="font">Join Subscription List</h1>
+    <form>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <input type="submit" class="button" value="Subscribe">
+    </form>
+</div>
+
+
+</body>
+</html>
