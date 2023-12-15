@@ -15,6 +15,7 @@
 
         .about {
             background-color: #FFFFFF;
+            text-align: center;
         }
 
         nav {
@@ -28,7 +29,7 @@
         a {color: #FFFFFF;}
         .welcome {
             display:flex;
-            background-color: #F8E9A1;
+            background-color: #FFFFFF;
             width: 100%;
            
          
@@ -51,7 +52,7 @@
            margin: auto;
            padding:50px;
            max-width: 500px;
-           text-align:center;
+          
         }
         
 
@@ -73,7 +74,7 @@
             border-radius: 10px;
             margin: 20px;
             font-size: 20px;
-            text-align:center;
+         
             line-height:2;
             justify-content: center;
         }
@@ -90,13 +91,30 @@
     }
 
     .hanna {
-        padding: 20px;
+        background-color: #F76C6C;
+        width: auto;
+        border-radius:0;
+        
     }
 
     .info1, .info2 {
         flex-basis: 100%;
         margin: 10px;  
+        
 }
+
+    .img1, .img2 {
+        padding: 20px;
+        align-items: center;
+        justify-content: center; 
+        
+    }
+
+    footer {
+        background-color: #24305E;
+        
+    }
+
     @media only screen and (max-width: 800px) {
         .welcome {
             flex-direction: column;
@@ -133,6 +151,10 @@
     h1, h2 {font-family: 'Crafty Girls', cursive;}
 
     nav {text-align:center;}
+
+    .copy {
+        color: #FFFFFF;
+    }
 
 </style>
 
@@ -172,8 +194,8 @@
 
 <div class="all">
     <div class="hanna">
-        <img src="../projectimages/IMG_0837.jpeg" alt="Hanna in the pool" width="400">
-        <img src="../projectimages/IMG_3482.jpeg" alt="Hanna as a lifeguard" width="400">
+        <img class="img1" src="../projectimages/IMG_0837.jpeg" alt="Hanna in the pool" width="400">
+        <img class ="img2"src="../projectimages/IMG_3482.jpeg" alt="Hanna as a lifeguard" width="400">
     </div>
 
     <div class="information">
@@ -202,7 +224,7 @@
 
 <footer>
     <hr> 
-    &copy; 2023
+   <span class="copy"> &copy; 2023</span>
 </footer>
 
 </html>

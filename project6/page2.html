@@ -5,10 +5,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Swimdex</title>
     <link rel="stylesheet" href="styles.css">
+
+    <style>
+        h2 {font-size: 30px;}
+
+            body, html {
+            margin: 0;
+            padding: 0;
+            }
+
+            nav {
+            justify-content: space-between;
+            background-color: #24305E;
+            color: #FFFFFF;
+            width:100%;
+            height: 10px;
+            padding: 10px;
+            text-align: center;
+            }
+            a {color: #FFFFFF;}
+            .welcome {
+            display:flex;
+            background-color: #FFFFFF;
+            width: 100%;
+            
+
+            }
+            .welcome img {
+            width:100%;
+            flex: 1;          
+            display: block;
+            flex-basis: 50%;
+            margin:0;
+            
+            }
+            .welcomecontent {
+            flex:1;
+            font-size: 30px;
+            
+            line-height: 1;
+            margin: auto;
+            padding:50px;
+            max-width: auto;
+            text-align:center;
+            }
+
+            .free {
+        text-align: center;
+        border: 30px solid #24305E;
+        width:auto;
+        padding: 0;
+        margin: 0;
+        background-color:#24305E;
+        color:#FFFFFF;
+        
+    }
+    .box1 {
+        background-color: #F76C6C;
+        padding: 5px;
+
+    }
+    .box2 {
+        background-color: #F8E9A1;
+        padding: 5px;
+
+    }
+
+    .boximage1, .boximage2 {
+        display:flex;
+        justify-content: space-evenly;
+        padding: 20px;
+        width:auto;
+    }
+
+    .title1, .title2 {
+        text-align:center;
+    }
+
+    .text1, .text2 {
+        display:flex;
+        flex-direction: column;
+        margin: 100px;
+        width:400px;
+       width:40%;
+       justify-content: center;
+    }
+
+    .breathing {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flipturn {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .content iframe, .content img {
+        margin:20px;
+    }
+
+    
+
+    </style>
+
+
 </head>
 <body>
-
-    <img src="../projectimages/swimbanner.jpg" alt="swim banner">
+    <div class="welcome">
+        <div class="welcomecontent">  
+        <h1>Advanced Skills</h1>
+        </div>
+            
+        <div>
+            <img src="../projectimages/swimbanner.jpg" alt="swim banner">
+        </div>     
+    </div>
     
     <nav>
         <a href="home.html">Home</a> |
@@ -16,22 +139,62 @@
         <a href="page2.html">Advanced Skills</a> 
     </nav>
 
-    <h1>Advanced Skills</h1>
-    <p>This page will contain tips on more advanced skills</p>
+    <h2 class="free">This page will contain tips on more advanced skills</h2>
 
-    <h2>Rotary Breathing</h2>
-    <p>Another thing to keep in mind is that your head shouldn’t be raised out of the water. While it may feel natural to want to pop your head out, it’s important to only rotate your head left or right, not up and out of the water. Popping your head up out of the water causes the rest of your body to sink, so it’s important to avoid this. A drill that can help with this skill is swimming on your side and breathing. Put one hand out in front of you and one hand behind you, and kick on your left or right side. Kick, and when you need to breathe, tilt your head out of the water, but DO NOT raise your head. In this drill, you will not be able to continue swimming if you raise your head out of the water, so it can help to defeat this habit.</p>
-    <img src="../projectimages/breathing.jpg" alt="flipturn" width="400">
-    
-    <iframe width="1022" height="575" src="https://www.youtube.com/embed/qMSP3cZzy-8" title="Freestyle Breathing - How to breathe while swimming" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-    <h2>Flip Turns</h2>
-    <p>A flip turn is a movement a swimmer can do when they finish a lap to start their next lap In the pool quicker. A flip turn is just what it sounds like a flip in the water! To perform a flip turn, you swim close to the wall, flip, rotate your body, and push off the wall. This is a complex motion to get down if this is your first time doing it. A trick to help is to jump up and down in the water a couple of times, and then do a flip, then repeat. This action may seem silly, but jumping and flipping in the water gives a similar feeling to doing a flip-turn and pushing off the wall. Doing this lets you feel how to rotate your body to do a flip- turn. After you feel comfortable doing some flips, it's time to add one more step: swimming. Try swimming towards the wall, and once you see the black T on the ground, do a flip and stand up. Repeat this a few times until you get used to the feeling. Next, do the same thing, this time flipping close enough to the wall to push off. Repeat this a few times. Finally, do the same thing, this time rolling back onto your stomach after pushing off the wall.</p>
- 
-    <img src="../projectimages/flipturn.jpg" alt="flipturn" width="400">
-    <img src="../projectimages/streamline.jpeg" alt="streamline" width="400">
+    <div class="box1">
+        <h2 class="title1">Rotary Breathing</h2>
+        <div class="boximage1">
+        <img src="../projectimages/breathing.jpg" alt="flipturn" width="400">
+        </div>
+    </div>
+
+
+
+<div class="breathing">
+    <div class="text1">
+        <p>Something to keep in mind is that your head shouldn’t be raised out of the water. While it may feel natural to want to pop your head out, it’s important to only rotate your head left or right, not up and out of the water. Popping your head up out of the water causes the rest of your body to sink, so it’s important to avoid this.<br>
+            
+        <br>A drill that can help with this skill is swimming on your side and breathing. Put one hand out in front of you and one hand behind you, and kick on your left or right side. Kick, and when you need to breathe, tilt your head out of the water, but DO NOT raise your head. In this drill, you will not be able to continue swimming if you raise your head out of the water, so it can help to defeat this habit.</p>
+    </div>
+
+   
     
-    <iframe width="1022" height="575" src="https://www.youtube.com/embed/GoyXk3xMfKY" title="How To Flip Turn | Freestyle Swimming Tips For Beginners" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/qMSP3cZzy-8" title="Freestyle Breathing - How to breathe while swimming" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</div>
+
+
+
+    <div class="box2">
+        <h2 class="title2">Flip Turns</h2>
+
+        <div class="boximage2">
+        <img src="../projectimages/flipturn.jpg" alt="flipturn" width="400">
+        </div>
+    </div>
+
+
+<div class="flipturn">
+
+    <div class="text2">
+        <p>A flip turn is a movement a swimmer can do when they finish a lap to start their next lap In the pool quicker. A flip turn is just what it sounds like a flip in the water! To perform a flip turn, you swim close to the wall, flip, rotate your body, and push off the wall. This is a complex motion to get down if this is your first time doing it.<br>
+        
+        <br>A trick to help is to jump up and down in the water a couple of times, and then do a flip, then repeat. This action may seem silly, but jumping and flipping in the water gives a similar feeling to doing a flip-turn and pushing off the wall. Doing this lets you feel how to rotate your body to do a flip- turn. After you feel comfortable doing some flips, it's time to add one more step: swimming.<br>
+        
+        <br>Try swimming towards the wall, and once you see the black T on the ground, do a flip and stand up. Repeat this a few times until you get used to the feeling. Next, do the same thing, this time flipping close enough to the wall to push off. Repeat this a few times. Finally, do the same thing, this time rolling back onto your stomach after pushing off the wall.</p>
+    </div>
+
+    <div class="content">
+
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/GoyXk3xMfKY" title="How To Flip Turn | Freestyle Swimming Tips For Beginners" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <img src="../projectimages/streamline.jpeg" alt="streamline" width="400">
+        
+    </div>
+    
+
+</div>
 
 </body>
 </html>

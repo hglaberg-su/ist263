@@ -5,10 +5,237 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+
+    <style>
+        h2 {font-size: 30px;}
+
+         body, html {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            justify-content: space-between;
+            background-color: #24305E;
+            color: #FFFFFF;
+            width:100%;
+            height: 10px;
+            padding: 10px;
+        }
+        a {color: #FFFFFF;}
+        .welcome {
+            display:flex;
+            background-color: #FFFFFF;
+            width: 100%;
+           
+         
+        }
+        .welcome img {
+           width:100%;
+           flex: 1;          
+           display: block;
+           flex-basis: 50%;
+           margin:0;
+           
+        }
+        .welcomecontent {
+           flex:1;
+           font-size: 30px;
+           
+           line-height: 1;
+           margin: auto;
+           padding:50px;
+           max-width: auto;
+           text-align:center;
+        }
+
+    .startedimages {
+        display:flex;
+        justify-content: space-evenly;
+        padding: 20px;
+        width:auto;
+    
+    }
+    .box1 {
+        background-color: #F76C6C;
+        padding: 5px;
+    }
+
+    .box2 {
+        background-color:#F8E9A1;
+        padding: 5px;
+    }
+
+
+    .kickboard, .pullimage {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        width:400px;
+        margin:auto;
+    }
+
+    .kickboardcontainer {
+        background-color:#F8E9A1;
+        padding:20px;
+    }
+
+    .pullimagecontainer {
+        background-color:#A8D0E6;
+        padding:20px;
+    }
+
+    .center {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin:40px;
+        
+    }
+
+   
+    
+    
+   .title1, .title2, .title3 {
+        text-align: center;
+    }
+
+    .text2 .text3, .text4 {
+        display:flex;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+        padding:10px;
+        width:70%
+    }
+
+    .text1 {
+        display:flex;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+        padding:10px;
+        
+    }
+
+ 
+
+
+
+    h1, h2 {font-family: 'Crafty Girls', cursive;}
+
+    nav {text-align:center;}
+
+    .copy {
+        color: #FFFFFF;
+    }
+
+    .free {
+        text-align: center;
+        border: 30px solid #24305E;
+        width:auto;
+        padding: 0;
+        margin: 0;
+        background-color:#24305E;
+        color:#FFFFFF;
+        
+    }
+
+
+
+    .stackedimages {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       float: right;
+       width:100%;
+        margin: 0;
+       padding:20px;
+    }
+
+    .stackedimages img {
+        margin: 20px;
+       
+    }
+
+   
+   
+
+
+    .startedend {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .text3 {
+        display:flex;
+        flex-direction: column;
+        margin: 100px;
+        width:400px;
+       width:40%;
+       justify-content: center;
+
+    }
+
+    .kickingend {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text5, .text2 {
+        display:flex;
+        flex-direction: column;
+        margin: 100px;
+        width:400px;
+       width:40%;
+       justify-content: center;
+
+    }
+
+    .video {
+        display:flex;
+        
+        align-items: center;
+        justify-content: center; 
+        flex-direction: column;
+        
+        margin: 20px 0;
+    }
+
+    .pullend {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+    </style>
+
+
+
 </head>
 <body>
 
-    <img src="../projectimages/swimbanner.jpg" alt="swim banner">
+    
+    
+    <div class="welcome">
+        <div class="welcomecontent">  
+        <h1>Strokes and Skills</h1>
+        </div>
+            
+        <div>
+            <img src="../projectimages/swimbanner.jpg" alt="swim banner">
+        </div>     
+    </div>
     
     <nav>
         <a href="home.html">Home</a> |
@@ -16,42 +243,121 @@
         <a href="page2.html">Advanced Skills</a> 
     </nav>
 
-    <h1>Strokes and Skills</h1>
-    <p>This page will contain all of the information about each skill that goes behind freestyle.</p>
+    <h2 class="free">This page will contain all of the information about each skill that goes behind freestyle.</h2>
 
 
-    <h2>Getting Started</h2>
-    <p>First, you want to ensure you're all prepared when beginning in the water. Here are a few rookie mistakes you should try to avoid making your swimming experience the best possible. Number one: bathing suits. most people's only experience with bathing suits comes from summers at the beach or vacations by the pool. While bikinis and swim trunks may be a good idea for a fun day at the beach, they’re not ideal for swimming laps. For women, a good option would be a one-piece designed for competitive swimming. For men, the best option would be jammers or those tiny little speedos if you're feeling frisky. These swimsuits eliminate unnecessary drag in the water and help you to move freely and effectively.</p>
+    <div class="box1">
+        <h2 class="title1">Getting Started</h2>
+        <div class="startedimages">
+            
+           
+        
+            <img src="../projectimages/womenswimsuit+goggles.jpg" alt="women's swim attire" width="170">
+        </div>
+    </div>
 
-    <p>Second is goggles. It's really important to get a nice pair of swimming goggles before beginning your swimming journey. Avoid any big snorkeling goggles that cover your nose. While these may feel more comfortable for new swimmers, leaving your nose uncovered while swimming laps is essential. It helps you to breathe and swim better overall. The best goggles for swimming are basic goggles that cover your eyes and wrap around your head. If you want to look like a pro, buy a bungee cord to replace the silicone one most goggles come with. Bungee cords help to make a more comfortable fit and make your goggles stay up better.</p>
+  
+        
+        <div class="text1">
+            <p>First, you want to ensure you're all prepared when beginning in the water. Here are a few rookie mistakes you should try to avoid making your swimming experience the best possible. Number one: bathing suits. most people's only experience with bathing suits comes from summers at the beach or vacations by the pool. While bikinis and swim trunks may be a good idea for a fun day at the beach, they’re not ideal for swimming laps. For women, a good option would be a one-piece designed for competitive swimming. For men, the best option would be jammers or those tiny little speedos if you're feeling frisky. These swimsuits eliminate unnecessary drag in the water and help you to move freely and effectively.<br>
 
-    <p>The last thing you'll need for your swimming journey is a swim cap. This goes for anybody with long hair. Contrary to popular belief, the swim cap isn't there to keep your hair dry; it's actually there to help you move faster in the water. If you have really long hair, it makes a big difference in your speed when trying to swim laps. Swim caps can be difficult to handle at first, so try asking a friend to help put them on. A swim cap isn't always necessary if you have short hair, but it always helps.</p>
+            <br>Second is goggles. It's really important to get a nice pair of swimming goggles before beginning your swimming journey. Avoid any big snorkeling goggles that cover your nose. While these may feel more comfortable for new swimmers, leaving your nose uncovered while swimming laps is essential. It helps you to breathe and swim better overall. The best goggles for swimming are basic goggles that cover your eyes and wrap around your head. If you want to look like a pro, buy a bungee cord to replace the silicone one most goggles come with. Bungee cords help to make a more comfortable fit and make your goggles stay up better.<br>
+            <br>The last thing you'll need for your swimming journey is a swim cap. This goes for anybody with long hair. Contrary to popular belief, the swim cap isn't there to keep your hair dry; it's actually there to help you move faster in the water. If you have really long hair, it makes a big difference in your speed when trying to swim laps. Swim caps can be difficult to handle at first, so try asking a friend to help put them on. A swim cap isn't always necessary if you have short hair, but it always helps.<br>
+                
+            <br>Now that we have covered the basics, you're ready to start! All of the following information will help build skills for the most common stroke: freestyle.
 
-    <p>Now that we have covered the basics, you're ready to start! All of the following information will help build skills for the most common stroke: freestyle.</p>
+     
+            <div class="stackedimages">
+                <img src="../projectimages/jammersuit+goggles+cap.jpg" alt="swim attire"
+                width="170">
+                <img src="../projectimages/swimcapandgoggles.jpeg" alt="swimcap" width="200">
+            </div>
+    
+    
 
-    <img src="../projectimages/jammersuit+goggles+cap.jpg" alt="swim attire"
-    width="400">
+           
+        </div>
 
-    <img src="../projectimages/womenswimsuit+goggles.jpg" alt="women's swim attire" width="400">
+        
+
+        
+        
+        
+
+    
+        
+    
+    
+   
+
+<div class="kicking">
+    <div class="box2">
+        <h2 class="title2"> Kicking</h2>
+        <div class="kickboardcontainer">
+        <img class="kickboard" src="../projectimages/kickboardswimming.jpg" alt="kickboard swimming" width="200">
+        </div>
+    
+    </div>
+<div class="pullend">
+    <div class="center">
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/iK6k6LBTsz0" title="How To Do Freestyle Kick | Front Crawl Kick: Step By Step Swimming Guide" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="text2">
+
+    <p>Swimming can be broken down into three things: your pull, your kick, and how those two things work together. In my opinion, the most essential thing in swimming is your kick. To get started, you're going to want to use a kickboard. When using a kickboard, you don't want to lay on top of it; you want to hold it straight out in front of you with straight arms. Reference the photo to help.<br>
+        
+    <br> We're going to focus on our futter kick. A common mistake people make when kicking is bending their legs too much. There should be little bend in your legs when doing a freestyle kick. Your feet should be pointed like a ballerina, and your feet should be placed just below the surface of the water, enough to create some splashing while still kicking beneath the water. By isolating your legs using the kickboard, this allows you to feel out what works best for you. By not allowing any movements other than kick, you can feel how fast you can move with just one piece of the puzzle. <br>
+    
+    <br>You can do drills to help with your kick. One drill you can do is to change the level at which your legs are at in the water to feel what feels best for you. Another drill you can do is starting with a slow kick and moving up too fast to feel the difference between the speeds.<br>
+
+   <br>When you begin your lap off the wall, it's essential to use a different kind of kick called the dolphin kick. This is a kick where you put your legs together and kick them together to push more water. This kick is performed when you push off the wall and swim under the water.<br>
+            
+    <br>Like the flutter kick, you should only allow a little bend in your legs. Remember that when you butterfly kick, it is a full-body movement; your core should be engaged and moving along with your legs! To practice the butterfly kick, you can perform the same drills and techniques listed for the flutter kick; replace them with the butterfly kick.</p>
+
+    </div>
+    
+
+    
+</div>
 
 
-<h2> Kicking</h2>
-<p>Swimming can be broken down into three things: your pull, your kick, and how those two things work together. In my opinion, the most essential thing in swimming is your kick. To get started, you're going to want to use a kickboard. When using a kickboard, you don't want to lay on top of it; you want to hold it straight out in front of you with straight arms. Reference the photo to help. We're going to focus on our futter kick. A common mistake people make when kicking is bending their legs too much. There should be little bend in your legs when doing a freestyle kick. Your feet should be pointed like a ballerina, and your feet should be placed just below the surface of the water, enough to create some splashing while still kicking beneath the water. By isolating your legs using the kickboard, this allows you to feel out what works best for you. By not allowing any movements other than kick, you can feel how fast you can move with just one piece of the puzzle. You can do drills to help with your kick. One drill you can do is to change the level at which your legs are at in the water to feel what feels best for you. Another drill you can do is starting with a slow kick and moving up too fast to feel the difference between the speeds.</p>
-
-<img src="../projectimages/kickboardswimming.jpg" alt="kickboard swimming" width="400">
-
-<p>When you begin your lap off the wall, it's essential to use a different kind of kick called the dolphin kick. This is a kick where you put your legs together and kick them together to push more water. This kick is performed when you push off the wall and swim under the water. Like the flutter kick, you should only allow a little bend in your legs. Remember that when you butterfly kick, it is a full-body movement; your core should be engaged and moving along with your legs! To practice the butterfly kick, you can perform the same drills and techniques listed for the flutter kick; replace them with the butterfly kick.</p>
-
-<iframe width="1022" height="575" src="https://www.youtube.com/embed/iK6k6LBTsz0" title="How To Do Freestyle Kick | Front Crawl Kick: Step By Step Swimming Guide" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-<h2>Pull</h2>
-<p>Onto the second piece of the puzzle, the pull! Isolating your pull from the rest of your stroke is the best way to develop your arm strength and technique. To do this, the best thing to use is a pool buoy. This is a piece of swim equipment that goes in between your legs and helps them to float. This allows you to do your pull without worrying about kicking as well. Here’s one thing to always remember when doing you’re doing pull: the invisible line. When you swim (especially in freestyle), you should always imagine that there is an invisible line going all the way down your body. You NEVER cross this line with either of your arms. This is something that everyone tends to naturally do (even the professionals!) This will not only lead to a more effective stroke but will also help you in the long run. If you’re working on freestyle pull, remember to keep your arms bent and reach forward, pulling all the way back down towards your butt. There are several drills that help you to improve your stroke. One drill is called kick and roll. This is where you put one arm straight in front of you and one arm below you at your side. You start on your left side, kick for 3 seconds, pull and roll onto your right side. This drill gives you a feeling of how your arms and legs work together. Another drill is called archer. This is where you hold one arm out in front of you, and one arm is pointed at a 90* angle (like an archer.) You kick for 3 seconds, then switch arms. This drill should help you understand your arm placement in your stroke.</p>
 
-<img src="../projectimages/pulltechnique.jpeg" alt="pulling" width="400">
+</div>
 
-<iframe width="1022" height="575" src="https://www.youtube.com/embed/d0dHbmJfSZA" title="How to swim Freestyle Pull |  FORM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="pull">
+    
 
+        
+    
+    </div>
+
+<div class="pullimagecontainer">
+    <h2 class="title3">Pull</h2>
+    <img class="pullimage" src="../projectimages/pulltechnique.jpeg" alt="pulling" width="500px">
+</div>
+
+<div class="pullend">
+    <div class="center">
+    <iframe class="video" width="640" height="360" src="https://www.youtube.com/embed/d0dHbmJfSZA" title="How to swim Freestyle Pull |  FORM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div class="text5">
+        <p>Onto the second piece of the puzzle, the pull! Isolating your pull from the rest of your stroke is the best way to develop your arm strength and technique. To do this, the best thing to use is a pool buoy. This is a piece of swim equipment that goes in between your legs and helps them to float. This allows you to do your pull without worrying about kicking as well. Here’s one thing to always remember when doing you’re doing pull: the invisible line. When you swim (especially in freestyle), you should always imagine that there is an invisible line going all the way down your body. You NEVER cross this line with either of your arms. This is something that everyone tends to naturally do (even the professionals!) This will not only lead to a more effective stroke but will also help you in the long run.<br>
+        
+        <br>If you’re working on freestyle pull, remember to keep your arms bent and reach forward, pulling all the way back down towards your butt. There are several drills that help you to improve your stroke. One drill is called kick and roll. This is where you put one arm straight in front of you and one arm below you at your side. You start on your left side, kick for 3 seconds, pull and roll onto your right side. This drill gives you a feeling of how your arms and legs work together. Another drill is called archer. This is where you hold one arm out in front of you, and one arm is pointed at a 90* angle (like an archer.) You kick for 3 seconds, then switch arms. This drill should help you understand your arm placement in your stroke.</p>
+
+    </div>
+</div>
+
+
+
+
+<footer>
+    <hr> 
+   <span class="copy"> &copy; 2023</span>
+</footer>
 
 </body>
 </html>
