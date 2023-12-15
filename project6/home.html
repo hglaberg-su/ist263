@@ -16,6 +16,21 @@
 
 
     <style>  
+
+.skip {
+            background-color: #ffbf00;
+            padding:5px;
+            border: 1px solid #000000;
+            text-decoration: none;
+            position: absolute; /* positions an element relative to the top left of the viewport */
+            top: 10px;
+            left: -999px;  /* -999 pushes off the left side of the screen */
+        }
+
+        .skip:focus {
+            left: 10px; /* bring it back when its been tabbed to */
+        }
+
     p {
         font-family: 'Big Shoulders Display', sans-serif;
         font-size:larger;
@@ -247,7 +262,8 @@
 
 <nav class="Navigation">
 
-        
+            <a href="#main" tabinex="1" class="skip">Skip to Content</a><br>
+
             <a class="button" href="home.html"><span>Home</span></a> 
 
       
@@ -278,7 +294,7 @@
 
     <h1 class="about">About</h1>
         
-    <div>  
+    <div id="main">  
     <p>Swimming. It truly is the perfect workout and activity for anyone at any skill level. There’s only one problem… Where are you supposed to start? The Swimdex is here to answer all of your questions. </p>
     </div>
 

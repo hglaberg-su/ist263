@@ -15,6 +15,21 @@
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
 
     <style>
+
+.skip {
+            background-color: #ffbf00;
+            padding:5px;
+            border: 1px solid #000000;
+            text-decoration: none;
+            position: absolute; /* positions an element relative to the top left of the viewport */
+            top: 10px;
+            left: -999px;  /* -999 pushes off the left side of the screen */
+        }
+
+        .skip:focus {
+            left: 10px; /* bring it back when its been tabbed to */
+        }
+
         p {
             font-family: 'Big Shoulders Display', sans-serif;
             font-size:larger;
@@ -358,7 +373,8 @@
     
     <nav class="Navigation">
 
-        
+        <a href="#main" tabinex="1" class="skip">Skip to Content</a><br>
+
         <a class="button" href="home.html"><span>Home</span></a> 
 
   
@@ -388,7 +404,7 @@
   
         
         <div class="text1">
-            <p>First, you want to ensure you're all prepared when beginning in the water. Here are a few rookie mistakes you should try to avoid making your swimming experience the best possible. Number one: bathing suits. most people's only experience with bathing suits comes from summers at the beach or vacations by the pool. While bikinis and swim trunks may be a good idea for a fun day at the beach, they’re not ideal for swimming laps. For women, a good option would be a one-piece designed for competitive swimming. For men, the best option would be jammers or those tiny little speedos if you're feeling frisky. These swimsuits eliminate unnecessary drag in the water and help you to move freely and effectively.<br>
+            <p id="main">First, you want to ensure you're all prepared when beginning in the water. Here are a few rookie mistakes you should try to avoid making your swimming experience the best possible. Number one: bathing suits. most people's only experience with bathing suits comes from summers at the beach or vacations by the pool. While bikinis and swim trunks may be a good idea for a fun day at the beach, they’re not ideal for swimming laps. For women, a good option would be a one-piece designed for competitive swimming. For men, the best option would be jammers or those tiny little speedos if you're feeling frisky. These swimsuits eliminate unnecessary drag in the water and help you to move freely and effectively.<br>
 
             <br>Second is goggles. It's really important to get a nice pair of swimming goggles before beginning your swimming journey. Avoid any big snorkeling goggles that cover your nose. While these may feel more comfortable for new swimmers, leaving your nose uncovered while swimming laps is essential. It helps you to breathe and swim better overall. The best goggles for swimming are basic goggles that cover your eyes and wrap around your head. If you want to look like a pro, buy a bungee cord to replace the silicone one most goggles come with. Bungee cords help to make a more comfortable fit and make your goggles stay up better.<br>
             <br>The last thing you'll need for your swimming journey is a swim cap. This goes for anybody with long hair. Contrary to popular belief, the swim cap isn't there to keep your hair dry; it's actually there to help you move faster in the water. If you have really long hair, it makes a big difference in your speed when trying to swim laps. Swim caps can be difficult to handle at first, so try asking a friend to help put them on. A swim cap isn't always necessary if you have short hair, but it always helps.<br>
