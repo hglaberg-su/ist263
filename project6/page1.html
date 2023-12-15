@@ -3,10 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Swimdex</title>
+
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
 
     <style>
+        p {
+            font-family: 'Big Shoulders Display', sans-serif;
+            font-size:larger;
+            line-height: 150%;
+        }
+        h1, h2 {
+            font-family: 'Bebas Neue', sans-serif;
+            color:#24305E;
+    
+    }
+
         h2 {font-size: 30px;}
 
          body, html {
@@ -15,13 +34,22 @@
         }
 
         nav {
-            justify-content: space-between;
+            display:flex;
+            justify-content: space-evenly;
+            align-items: center;
             background-color: #24305E;
             color: #FFFFFF;
             width:100%;
             height: 10px;
             padding: 10px;
         }
+
+        @media only screen and (max-width:800px) {
+            nav {
+                display:block;
+            }
+        }
+
         a {color: #FFFFFF;}
         .welcome {
             display:flex;
@@ -92,10 +120,7 @@
         align-items:center;
         margin:40px;
         
-    }
-
-   
-    
+    }    
     
    .title1, .title2, .title3 {
         text-align: center;
@@ -125,7 +150,7 @@
 
 
 
-    h1, h2 {font-family: 'Crafty Girls', cursive;}
+  
 
     nav {text-align:center;}
 
@@ -216,6 +241,59 @@
     }
 
 
+    @media only screen and (max-width: 900px) {
+        .welcome {
+            flex-direction: column;
+        }
+    }
+
+    @media only screen and (max-width: 900px) {
+        .all {
+            flex-direction: column;
+        }
+    }
+    @media only screen and (max-width: 900px) {
+        .hanna {
+           
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+        }
+    }
+    @media only screen and (max-width: 900px) {
+        nav a {
+        display:block;
+
+        }
+
+        nav {height: 60px;}
+    }
+    @media only screen and (max-width: 900px) {
+    .welcomecontent {
+        font-size: 15px;  
+     
+        }
+    } 
+
+    @media only screen and (max-width: 900px) {
+    .text1, .text2, .text3, .text4, .text5, .pullend, .kickingend  {
+         display: block;
+     
+        }
+    } 
+
+    @media only screen and (max-width: 900px) {
+    .video  {
+         display: block;
+         text-align:center;
+     
+        }
+        .video iframe {
+            width:100%;
+            height:auto;
+        }
+    } 
+
 
 
     </style>
@@ -233,13 +311,13 @@
         </div>
             
         <div>
-            <img src="../projectimages/swimbanner.jpg" alt="swim banner">
+            <img src="../projectresize/swimbanner.jpg" alt="swim banner">
         </div>     
     </div>
     
     <nav>
-        <a href="home.html">Home</a> |
-        <a href="page1.html">Skills</a> |
+        <a href="home.html">Home</a>
+        <a href="page1.html">Skills</a>
         <a href="page2.html">Advanced Skills</a> 
     </nav>
 
@@ -252,7 +330,7 @@
             
            
         
-            <img src="../projectimages/womenswimsuit+goggles.jpg" alt="women's swim attire" width="170">
+            <img src="../projectresize/womenswimsuit+goggles.jpg" alt="women's swim attire" width="170">
         </div>
     </div>
 
@@ -268,14 +346,11 @@
 
      
             <div class="stackedimages">
-                <img src="../projectimages/jammersuit+goggles+cap.jpg" alt="swim attire"
+                <img src="../projectresize/jammersuit+goggles+cap.jpg" alt="swim attire"
                 width="170">
-                <img src="../projectimages/swimcapandgoggles.jpeg" alt="swimcap" width="200">
+                <img src="../projectresize/swimcap.jpg" alt="swimcap" width="200">
             </div>
-    
-    
-
-           
+   
         </div>
 
         
@@ -294,13 +369,13 @@
     <div class="box2">
         <h2 class="title2"> Kicking</h2>
         <div class="kickboardcontainer">
-        <img class="kickboard" src="../projectimages/kickboardswimming.jpg" alt="kickboard swimming" width="200">
+        <img class="kickboard" src="../projectresize/kickboardswimming.jpg" alt="kickboard swimming" width="200">
         </div>
     
     </div>
 <div class="pullend">
     <div class="center">
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/iK6k6LBTsz0" title="How To Do Freestyle Kick | Front Crawl Kick: Step By Step Swimming Guide" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="video" width="640" height="360" src="https://www.youtube.com/embed/iK6k6LBTsz0" title="How To Do Freestyle Kick | Front Crawl Kick: Step By Step Swimming Guide" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <div class="text2">
 
@@ -335,7 +410,7 @@
 
 <div class="pullimagecontainer">
     <h2 class="title3">Pull</h2>
-    <img class="pullimage" src="../projectimages/pulltechnique.jpeg" alt="pulling" width="500px">
+    <img class="pullimage" src="../projectresize/pulltechnique.jpg" alt="pulling" width="500px">
 </div>
 
 <div class="pullend">

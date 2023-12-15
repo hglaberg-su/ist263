@@ -6,8 +6,26 @@
     
     <title>The Swimdex</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
+
 
     <style>  
+    p {
+        font-family: 'Big Shoulders Display', sans-serif;
+        font-size:larger;
+        line-height: 150%;
+    }
+
+    h1, h2 {font-family: 'Bebas Neue', sans-serif;
+            color:#24305E;
+}
+
         body, html {
             margin: 0;
             padding: 0;
@@ -19,13 +37,24 @@
         }
 
         nav {
-            justify-content: space-between;
+            display:flex;
+            justify-content: space-evenly;
+            align-items: center;
             background-color: #24305E;
             color: #FFFFFF;
             width:100%;
             height: 10px;
             padding: 10px;
         }
+
+        @media only screen and (max-width:800px) {
+            nav {
+                display:block;
+            }
+        }
+
+        
+
         a {color: #FFFFFF;}
         .welcome {
             display:flex;
@@ -40,8 +69,6 @@
            display: block;
            flex-basis: 50%;
            margin:0;
-           
-
            
         }
         .welcomecontent {
@@ -148,7 +175,7 @@
      
         }
     }   
-    h1, h2 {font-family: 'Crafty Girls', cursive;}
+
 
     nav {text-align:center;}
 
@@ -160,9 +187,7 @@
 
 <link rel="shortcut icon" type="image/x-icon" href="../projectimages/favicon.ico">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Festive&display=swap" rel="stylesheet">
+
 
 </head> 
 
@@ -174,7 +199,7 @@
     </div>
         
     <div>
-        <img src="../projectimages/Swimming.jpg" alt="girl swimming">
+        <img src="../projectresize/Swimming.jpg" alt="girl swimming">
     </div>     
 </div>
 
@@ -194,8 +219,8 @@
 
 <div class="all">
     <div class="hanna">
-        <img class="img1" src="../projectimages/IMG_0837.jpeg" alt="Hanna in the pool" width="400">
-        <img class ="img2"src="../projectimages/IMG_3482.jpeg" alt="Hanna as a lifeguard" width="400">
+        <img class="img1" src="../projectresize/hannaswim.jpg" alt="Hanna in the pool" width="400">
+        <img class ="img2"src="../projectresize/hannalifeguard2.jpg" alt="Hanna as a lifeguard" width="400">
     </div>
 
     <div class="information">
